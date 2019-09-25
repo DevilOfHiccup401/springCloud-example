@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springCloud" />
+        <module name="config-server" />
+        <module name="eureka-feign-client" />
+        <module name="eureka-consumer-feign" />
+        <module name="turbine" />
+        <module name="turbine-amqp" />
+        <module name="api-gateway" />
+        <module name="eureka-client" />
+        <module name="eureka-feign-server" />
+        <module name="eureka-consume" />
+        <module name="eureka-consumer-ribbon-hystrix" />
+        <module name="eureka-server" />
+        <module name="config-client" />
+        <module name="hystrix-dashboard" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="consul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-consumer-ribbon (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="" />
+      <module name="eureka-consumer-ribbon-hystrix" options="" />
+      <module name="hystrix-dashboard" options="" />
+      <module name="turbine" options="" />
+      <module name="turbine-amqp" options="" />
+    </option>
+  </component>
+</project>

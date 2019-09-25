@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:  eureka-consume-ribbon-hystrix
+server:
+  port:  1008
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
